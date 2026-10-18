@@ -1,30 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3f0ec">
+  <meta name="description" content="Nadia Schul — find my official social links.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nadiaschul.me/">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nadia Schul">
+  <meta property="og:description" content="Official social links for Nadia Schul.">
+  <meta property="og:url" content="https://nadiaschul.me/">
   <title>Nadia Schul</title>
-  <style>
-    body {
-      margin: 0;
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: #f7f3ee;
-      color: #333;
-      font-family: Arial, sans-serif;
-      text-align: center;
-    }
-    h1 { font-size: 48px; }
-    p { font-size: 20px; color: #777; }
-  </style>
 </head>
 <body>
-  <main>
-    <h1>Nadia Schul</h1>
-    <p>Our website is coming soon.</p>
+  <main class="landing-page">
+    <section class="scene" aria-labelledby="main-title">
+      <div class="link-box-wrap">
+        <div class="pixel-card" role="region" aria-label="Official social links">
+          <p class="pixel-label">official links</p>
+          <h1 id="main-title">Nadia Schul</h1>
+          <p class="subtitle">Choose a box ✦</p>
+
+          <nav class="link-list" aria-label="Social media links">
+            <a class="pixel-link" href="https://www.instagram.com/nadiaschul.me/" target="_blank" rel="noopener noreferrer" aria-label="Open Instagram">
+              <span class="link-name">Instagram</span>
+            </a>
+
+            <a class="pixel-link" href="https://www.tiktok.com/@nadiaschul" target="_blank" rel="noopener noreferrer" aria-label="Open TikTok">
+              <span class="link-name">TikTok</span>
+            </a>
+
+            <a class="pixel-link" href="mailto:contact@nadiaschul.me" aria-label="Send email to contact@nadiaschul.me">
+              <span class="link-name">Email</span>
+            </a>
+          </nav>
+        </div>
+      </div>
+
+      <figure class="character-wrap">
+        <img
+          class="character"
+          src="./assets/nadia-pixel-character-transparent.png"
+          alt="Pixel-art character of Nadia pointing toward the links box"
+        >
+      </figure>
+    </section>
   </main>
 </body>
 </html>
